@@ -1,0 +1,22 @@
+{
+  "name": "ecommerce-node-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server -H 0.0.0.0 -p 3000 -w index.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodolfo-santos/ecommerce-node-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodolfo-santos/ecommerce-node-template/issues"
+  },
+  "homepage": "https://github.com/rodolfo-santos/ecommerce-node-template#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
