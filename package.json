@@ -1,16 +1,19 @@
 {
   "name": "ecommerce-node-template",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple json database to deploy to the host of your choice",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server -H 0.0.0.0 -p 3000 -w index.json"
+    "start": "node server.js"
   },
+  "keywords": [
+    "json-server,heroku, node, REST API"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rodolfo-santos/ecommerce-node-template.git"
   },
-  "author": "",
+  "author": "rodolfo-santos",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rodolfo-santos/ecommerce-node-template/issues"
